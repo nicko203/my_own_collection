@@ -1,0 +1,14 @@
+nginx_servers:
+  hosts:
+    nginx_debian:
+      ansible_host: ansible.shaaz.ugmk.com
+    nginx_centos:
+      ansible_host: ansible-centos7.shaaz.ugmk.com
+debian:
+  hosts:
+    nginx_debian:
+      ansible_host: ansible.shaaz.ugmk.com
+centos:
+  hosts:
+    nginx_centos:
+      ansible_host: ansible-centos7.shaaz.ugmk.com

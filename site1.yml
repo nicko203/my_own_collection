@@ -1,0 +1,6 @@
+---
+- name: Test my_own_module in docker
+  hosts:
+    - debian
+  roles:
+    - my_role
